@@ -22,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void registerUser(View view){
-        button = findViewById(R.id.bottom);
-        editTextFirstName = findViewById(R.id.editText);
-        editTextLastName = findViewById(R.id.editText2);
-        editTextEmail = findViewById(R.id.editText3);
-        textViewFirstName = findViewById(R.id.textView3);
-        textViewLastName = findViewById(R.id.textView2);
-        textViewEmail = findViewById(R.id.textView);
+        button = findViewById(R.id.buttonRegisterUser);
+        editTextFirstName = findViewById(R.id.editTextFirstName);
+        editTextLastName = findViewById(R.id.editTextLastName);
+        editTextEmail = findViewById(R.id.editTextEmail);
+        textViewFirstName = findViewById(R.id.textViewFirstName);
+        textViewLastName = findViewById(R.id.textViewLastName);
+        textViewEmail = findViewById(R.id.textViewEmail);
         textViewFirstName.setText(editTextFirstName.getText().toString());
         textViewLastName.setText(editTextLastName.getText().toString());
         textViewEmail.setText(editTextEmail.getText().toString());
