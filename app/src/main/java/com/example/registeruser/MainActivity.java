@@ -26,11 +26,13 @@ public class MainActivity extends AppCompatActivity {
         editTextFirstName = findViewById(R.id.editTextFirstName);
         editTextLastName = findViewById(R.id.editTextLastName);
         editTextEmail = findViewById(R.id.editTextEmail);
+
         textViewFirstName = findViewById(R.id.textViewFirstName);
         textViewLastName = findViewById(R.id.textViewLastName);
         textViewEmail = findViewById(R.id.textViewEmail);
-        textViewFirstName.setText(editTextFirstName.getText().toString());
-        textViewLastName.setText(editTextLastName.getText().toString());
-        textViewEmail.setText(editTextEmail.getText().toString());
+
+        textViewFirstName.setText("First Name: " + editTextFirstName.getText().toString());
+        textViewLastName.setText("Last Name: "+editTextLastName.getText().toString());
+        textViewEmail.setText("Email: "+editTextEmail.getText().toString());
     }
 }
